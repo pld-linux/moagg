@@ -1,14 +1,14 @@
 Summary:	Mother of all Gravity Games
 Summary(pl):	Matka wszystkich gier grawitacyjnych
 Name:		moagg
-Version:	0.10
+Version:	0.13
 Release:	1
 License:	GPL
 Group:		Applications/Games
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-src.tar.bz2
-# Source0-md5:	4fee4ae21e6b788c9a8d89161be2ae6a
+# Source0-md5:	812c93f597131e340b3e1951ef6c79ce
 Source1:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-data.tar.bz2
-# Source1-md5:	2d340bf3873e310b9a3aff5f11107462
+# Source1-md5:	75d7a329579654df94870647b0dec7cc
 URL:		http://moagg.sourceforge.net/
 BuildRequires:	SDL-devel >= 1.2.0
 BuildRequires:	SDL_gfx-devel
@@ -61,5 +61,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog README TODO
 %attr(755,root,root) %{_bindir}/*
-%{_datadir}/games/%{name}
+%{_datadir}/%{name}/*/*
 %{_mandir}/man6/*
