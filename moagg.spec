@@ -2,7 +2,7 @@ Summary:	Mother of all Gravity Games
 Summary(pl):	Matka wszystkich gier grawitacyjnych
 Name:		moagg
 Version:	0.9
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Games
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-src.tar.bz2
@@ -10,11 +10,12 @@ Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-src.tar.bz2
 Source1:        http://dl.sourceforge.net/%{name}/%{name}-%{version}-data.tar.bz2
 # Source1-md5:	231e0ea235ca23361a8537b74b27c65a
 URL:		http://moagg.sourceforge.net/
-BuildRequires:	SDL-devel
+BuildRequires:	SDL-devel >= 1.2.0
 BuildRequires:	SDL_gfx-devel
 BuildRequires:	SDL_mixer-devel
+BuildRequires:	automake
 BuildRequires:	expat-devel
-BuildRequires:	freetype-devel
+BuildRequires:	freetype-devel >= 2.1.0
 BuildRequires:	paragui1-devel >= 1.0.4
 BuildRequires:	paragui1-devel < 1.1.0
 BuildRequires:	sed >= 4.0
@@ -42,6 +43,7 @@ zapanowaæ.
 
 %build
 sed -i -e 's#paragui-config#paragui1-config#g' configure* *.m4
+cp -f /usr/share/automake/config.* .
 SDL_VIDEODRIVER=dummy; export SDL_VIDEODRIVER
 %configure
 %{__make} \
