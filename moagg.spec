@@ -1,6 +1,3 @@
-# TODO:
-#	- fix configure when SDL can't be initialized (ie. missing DISPLAY)
-#
 Summary:	Mother of all Gravity Games
 Summary(pl):	Matka wszystkich gier grawitacyjnych
 Name:		moagg
@@ -45,6 +42,7 @@ zapanowaæ.
 
 %build
 sed -i -e 's#paragui-config#paragui1-config#g' configure* *.m4
+SDL_VIDEODRIVER=dummy; export SDL_VIDEODRIVER
 %configure
 %{__make} \
 	CFLAGS="%{rpmcflags}"
