@@ -7,7 +7,7 @@ License:	GPL
 Group:		Applications/Games
 Source0:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-src.tar.bz2
 # Source0-md5:	e1607da1dcd32d131382f0a6ed25da91
-Source1:        http://dl.sourceforge.net/%{name}/%{name}-%{version}-data.tar.bz2
+Source1:	http://dl.sourceforge.net/%{name}/%{name}-%{version}-data.tar.bz2
 # Source1-md5:	231e0ea235ca23361a8537b74b27c65a
 URL:		http://moagg.sourceforge.net/
 BuildRequires:	SDL-devel >= 1.2.0
