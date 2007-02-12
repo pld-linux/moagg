@@ -1,5 +1,5 @@
 Summary:	Mother of all Gravity Games
-Summary(pl):	Matka wszystkich gier grawitacyjnych
+Summary(pl.UTF-8):   Matka wszystkich gier grawitacyjnych
 Name:		moagg
 Version:	0.18
 Release:	1
@@ -31,14 +31,14 @@ levels. But beside the gravity that drags you down there are other
 obstacles like laser ports, magnets, black holes, cannons, rockets and
 grinders you have to master.
 
-%description -l pl
-Moagg ³±czy kilka rodzajów gier innych gatunków, takich jak wy¶cigi,
-znajd¼-i-uratuj, znajd¼-i-zniszcz itp., w dwuwymiarow± grê
-grawitacyjn±. Gracz jest pilotem ma³ego statku kosmicznego i musi
-kierowaæ statkiem poprzez ró¿ne poziomy. Oprócz ¶ci±gaj±cej w dó³
-grawitacji s± jeszcze inne przeszkody, jak porty laserowe, magnesy,
-czarne dziury, dzia³a, rakiety i zgniatacze, nad którymi trzeba
-zapanowaæ.
+%description -l pl.UTF-8
+Moagg Å‚Ä…czy kilka rodzajÃ³w gier innych gatunkÃ³w, takich jak wyÅ›cigi,
+znajdÅº-i-uratuj, znajdÅº-i-zniszcz itp., w dwuwymiarowÄ… grÄ™
+grawitacyjnÄ…. Gracz jest pilotem maÅ‚ego statku kosmicznego i musi
+kierowaÄ‡ statkiem poprzez rÃ³Å¼ne poziomy. OprÃ³cz Å›ciÄ…gajÄ…cej w dÃ³Å‚
+grawitacji sÄ… jeszcze inne przeszkody, jak porty laserowe, magnesy,
+czarne dziury, dziaÅ‚a, rakiety i zgniatacze, nad ktÃ³rymi trzeba
+zapanowaÄ‡.
 
 %prep
 %setup -q -b1
