@@ -1,5 +1,5 @@
 Summary:	Mother of all Gravity Games
-Summary(pl.UTF-8):   Matka wszystkich gier grawitacyjnych
+Summary(pl.UTF-8):	Matka wszystkich gier grawitacyjnych
 Name:		moagg
 Version:	0.18
 Release:	1
